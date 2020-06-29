@@ -1,3 +1,8 @@
+"""
+Auhor: Winston Appleton
+Description: This progran is written to satisfy the requirements for the Udacity Nano degree in Programming for Data Science
+
+"""
 import time
 import datetime as dt
 import pandas as pd

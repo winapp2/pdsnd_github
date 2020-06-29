@@ -5,7 +5,8 @@ June 27, 2020
 winnapp2 Bikeshare
 
 ### Description
-Udacity python project
+Udacity python project. Using python to analyze bikeshare data for three cities
+in the U.S.
 
 ### Files used
 bikeshare.py template
@@ -14,6 +15,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Udacity.com
-
-
+Udacity.com, github.com, stackoverflow.com

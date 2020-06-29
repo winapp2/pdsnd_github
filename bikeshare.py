@@ -84,8 +84,7 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    # FIXME: what if more than one months/days have equal high usage?
-    # FIXME: Error check
+    
 
     # display the most common month
     month_summary = df.groupby(df['Start Time'].dt.month)['Start Time'].count()

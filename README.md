@@ -2,7 +2,7 @@
 June 27, 2020
 
 ### Project Title
-winnapp2 Bikeshare
+winnapp2 Bikeshare Udacity Nanodegree Project
 
 ### Description
 Udacity python project. Using python to analyze bikeshare data for three cities

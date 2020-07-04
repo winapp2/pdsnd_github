@@ -1,5 +1,6 @@
 """
 Auhor: Winston Appleton
+Date Created: June 16, 2020
 Description: This progran is written to satisfy the requirements for the Udacity Nano degree in Programming for Data Science
 
 """
@@ -84,7 +85,7 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
-    
+
 
     # display the most common month
     month_summary = df.groupby(df['Start Time'].dt.month)['Start Time'].count()

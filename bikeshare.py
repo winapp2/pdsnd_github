@@ -32,7 +32,7 @@ def get_filters():
         if city in CITY_DATA.keys():
             break
         else:
-            print('Invalid city input.')
+            print('Not a valid city.')
 
     # get user input for month (all, january, february, ... , june)
     while True:
@@ -140,7 +140,7 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """This function displays statistics on the total and average trip durations."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -190,7 +190,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
 
-
+# Call the main function
 def main():
     while True:
         city, month, day = get_filters()
